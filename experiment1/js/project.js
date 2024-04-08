@@ -30,16 +30,16 @@ function main() {
     role: ["pickup artist", "farmer", "cult overthrower", "demon lord", "princess", "prince", "king", "scam artist", "dropshipper", "salesperson", "hunter", "predator", "captain", "CEO", "test subject"],
     company: ["Alpha Male Cultivators", "OopsiePoopsie Enterprises", "QuirkyQuark Co.", "OopsieDaisy Enterprises", "CringeMaster Co.", "Yikes Corps", "Randomonium Inc.", "Gen Alpha Literacies", "MemeMachine Innovations", "HappyGoLucky Co.", "TickleTech Solutions"],
     advertisment: ["zoo", "back of a bottlecap", "3rd page of a newspaper", "reddit 50/50 page", "top of a short bald guy's head", "drunk cosplay convention", "orphanage", "playground", "bottom of a receipt from Walmart", "AA meetup"],
-    emotion: ["Anhedonia", "Euphobia", "Malu", "Eleutheromania", "Cataplexy", "Onism", "Kenopsia", "Exulansis", "Occhiolism", "Monachopsis", "Acedia", "Sonder", "Lachesism", "Liberosis", "Vemödalen"],
-    descriptive: ["Ruthless", "Exploitative", "Monopolistic", "Cutthroat", "Unscrupulous", "Greedy", "Arrogant", "Manipulative", "Opportunistic", "Predatory", "Unethical", "Corrupt", "Overbearing", "Domineering", "Ruthless", "Deceptive", "Unsympathetic", "Mercenary", "Callous", "Machiavellian"],
+    emotion: ["anhedonia", "euphobia", "malu", "eleutheromania", "cataplexy", "onism", "kenopsia", "exulansis", "occhiolism", "monachopsis", "acedia", "sonder", "lachesism", "liberosis", "vemödalen"],
+    descriptive: ["ruthless", "exploitative", "monopolistic", "cutthroat", "unscrupulous", "greedy", "arrogant", "manipulative", "opportunistic", "predatory", "unethical", "corrupt", "overbearing", "domineering", "ruthless", "deceptive", "unsympathetic", "mercenary", "callous", "machiavellian"],
     startHour: ["1","2", "3", "4", "5", "6", "7", "8", "9"],
     endHour: ["4", "5", "6", "7", "8", "9", "10", "11"],
     wage: ["4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
-    adjective: ["Incompetent", "Lazy", "Dishonest", "Unreliable", "Arrogant", "Rude", "Disorganized", "Insubordinate", "Unmotivated", "Irresponsible", "Clueless", "Obnoxious", "Unqualified", "Careless", "Indecisive", "Passive", "Entitled", "Forgetful", "Unprofessional", "Inattentive"]
+    adjective: ["incompetent", "lazy", "dishonest", "unreliable", "arrogant", "rude", "disorganized", "insubordinate", "unmotivated", "irresponsible", "clueless", "obnoxious", "unqualified", "careless", "indecisive", "passive", "entitled", "forgetful", "unprofessional", "inattentive"]
   };
   
   
-  const template = `$gretting $prefix $title, I want to apply for the role of $role at $company.
+  const template = `$greeting $prefix $title, I want to apply for the role of $role at $company.
   
   I saw your flier at the $advertisment and I felt $emotion at the thought of working at your $descriptive company.
   
