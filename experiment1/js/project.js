@@ -27,7 +27,7 @@ function main() {
     greeting: ["Whats good", "Sup", "Waddap", "Hello", "Hey there", "Yoohoo", "Yerr", "Heya", "Praise the Lord", "Bismallah", "Yo yo yo", "Suh", "Suh dude", "My armpits STINK... anyways how you doing", "Hail Satan", "Shut up and listen to me"],
     prefix: ["Sir", "Maam", "Bro", "Broseph", "Proffessor", "Gurl", "Gorl", "Girlie", "Madam", "Lord", "Broskie", "Queen", "Your Excellency", "Honorable"],
     title: ["Rizzler", "Himothy", "Short King", "Bummy McBumface", "Charlatan", "Gringo", "Dank Memer"],
-    role: ["pickup artist", "farmer", "cult overthrower", "demon lord", "princess", "prince", "king", "scam artist", "dropshipper", "salesperson", "hunter", "predator", "captain", "CEO", "test subject"],
+    role: ["Pickup Artist", "Farmer", "Cult Overthrower", "Demon Lord", "Princess", "Prince", "King", "Scam Artist", "Dropshipper", "Salesperson", "Hunter", "Predator", "Captain", "CEO", "Test Subject"],
     company: ["Alpha Male Cultivators", "OopsiePoopsie Enterprises", "QuirkyQuark Co.", "OopsieDaisy Enterprises", "CringeMaster Co.", "Yikes Corps", "Randomonium Inc.", "Gen Alpha Literacies", "MemeMachine Innovations", "HappyGoLucky Co.", "TickleTech Solutions"],
     advertisment: ["zoo", "back of a bottlecap", "3rd page of a newspaper", "reddit 50/50 page", "top of a short bald guy's head", "drunk cosplay convention", "orphanage", "playground", "bottom of a receipt from Walmart", "AA meetup"],
     emotion: ["anhedonia", "euphobia", "malu", "eleutheromania", "cataplexy", "onism", "kenopsia", "exulansis", "occhiolism", "monachopsis", "acedia", "sonder", "lachesism", "liberosis", "vemödalen"],
