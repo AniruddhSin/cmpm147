@@ -32,30 +32,68 @@
 	<main id="content">
 		<section>
 
-			<h1>Experiment X - Subject/Topic</h1>
-
-			<div class="minor-section">
-				<div id="canvas-container">
-					<!-- canvas will be added here -->
+            <div class="minor-section">
+				<div>
+					<button id="reseedButton">reseed</button>
+					<span id="seedReport"></span>
+					<hr />
+					<span id="canvasContainer">
+						<!-- canvas for sketch 1 will be added here -->
+					</span>
+					<textarea cols="20" rows="20" id="asciiBox" style="opacity: 0.5; letter-spacing: 1ex; width: 320px; margin: 10px; font-family: monospace;"></textarea>
+				</div>
+				<hr />
+				<div>
+					<button id="reseedButton2">reseed</button>
+					<span id="seedReport2"></span>
+					<hr />
+					<span id="canvasContainer2">
+						<!-- canvas for sketch 2 will be added here -->
+					</span>
+					<textarea cols="20" rows="20" id="asciiBox2" style="opacity: 0.5; letter-spacing: 1ex; width: 320px; margin: 10px; font-family: monospace;"></textarea>
 				</div>
                 <div class="fullscreen-box">
                     <button id="fullscreen">Fullscreen</button>
                 </div>
-			</div>
+            </div>	
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p>What are you trying to acomplish with this experiment?</p>
+				<p> The purpose of this experiment is to represent a map as tokens and as images. It helps the programmer and the user understand how grids are represented through code and how you can translate between small pixel art and map design with symbols.
+					The experiment was done twice, once with a dungeon with rooms and once with an overworld with biomes. The technical aspect remains the same between the two, but it is interesting to see how once concept can be applied in different ways.
+					The user is able to edit the map of symbols as they like to see the changes to the art in real time. This experiment also used a lot of auto tiling logic, which was the main focus of the assingment.
+				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>Describe in detail what you did technically and how it works?</p>
+				<p> For the biomes on the overworld, I used noise based seed generation to make general sections of dirt and grass and then randomly placed water. I made the water be inside the dirt to reflect the original inspiration given to us in the slides. 
+					The dungeon was created by randomly making 2 rooms that should never overlap and then connecting them with a hallway which is generated using the central coordinates of each room.
+					The water and lava in each of the worlds is updated using Perlin noise to have a motion effect.
+					Auto tiling logic was used to make the biome blending more smooth and natural.
+					
+					The user can change the map of symbols to see the effects in real time. Here is a key for each world:
+					Dungeon (top):
+						Lava: '_'
+						Room: '|'
+						Chest: 'c'
+					Overworld (bottom):
+						Dirt: ':'
+						Grass: '_'
+						Water: 'w'
+
+				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p>Each person that worked on the code should reflect on the process, the difficulties, and the successes of the experiment.</p>
+				<p> I worked on this by myself and I was definitely intimidated by the concept of auto tiling and biome generation using noise because I had never even tried to do something similar in the past. 
+					It was all new for me and I could not quite grasp how to implement the logic as I could not understand what the slides were trying to explain. I spent a lot of time on this project because I saw that my work on the previous 2 experiments was apparently not satisfactory.
+					I spent at least 20 hours on the assignment trying to perfect the biome blending and the lookup table logic for how each biome is supposed to blend with each other. I had to ask outside sources how to update the function using noise to give the water and lava a realistic motion effect.
+					My lowest point was definitely trying to figure out what drawContext was supposed to do and how it pertained to the lookup list. My saving grace was the attached link explaining 4-bit auto tiling logic.
+					I also greatly struggled with finding out how to get both worlds to appear on my portfolio. I was stumped because there was no code to reference on the professors page until I got help from others in the discord. The community definitely helped me here.
+					My highest point was transitioning from dunegon to overworld. Once I understood how to implement the dungeon, the overworld took much less time. The only thing that really needed to be altered was the biome generation.
+				</p>
 			</div>
 
 		</section>
