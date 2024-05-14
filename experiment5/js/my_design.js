@@ -75,5 +75,5 @@ function mutateDesign(design, inspiration, rate) {
 }
 
 function mut(num, min, max, rate) {
-  return constrain(randomGaussian(num, (rate * (max - min)) / 10), min, max);
+  return constrain(randomGaussian(num, (rate * (max - min)) / 25), min, max);
 }
